@@ -7,14 +7,20 @@ body {
   overflow: auto;
 }
 
-.container{ 
+.container{
     top:0;
-    left:0;
+    left: 0;
     right:0; 
     bottom:0; 
-    width:auto; 
+    min-width:557px;
+    width: auto;
     height:900px; 
-    margin:auto;
+    margin: 0px 10px 10px 10px;
+}
+@media only screen and (max-width:640px) {
+  .sqs-block-html {
+    margin: 10px;
+  }
 }
 
 header {
@@ -22,7 +28,7 @@ header {
   color:            #1F7F95;
   margin:           0px;
   height:           30px;
-  padding:           5px 25px;
+  padding:          5px 25px;
 }
 div.headerSlogan {
   display: table-cell;
@@ -45,11 +51,11 @@ div.headerSlogan {
   opacity: 0.7;
 }
 .fa-facebook {
-  background: #1F7F95;
+  background: #F4D843;
   color: white;
 }
 .fa-instagram {
-  background: #1F7F95;
+  background: #F4D843;
   color: white;
 }
 
@@ -78,18 +84,9 @@ div#tableRow {
 	display: table-row;
 }
 
-section#drinks {
-    display: table-cell;
-    background-color: #efe5d0;
-    width: 20%;
-    padding: 15px;
-    vertical-align: top;
-}
-
-
 section#main, section#blog {
   display: table-cell;
-  background:       #efe5d0 url(images/background.gif) top left;
+  background:       white;
   font-size:        105%;
   padding:          15px;
   vertical-align: top;
@@ -97,34 +94,62 @@ section#main, section#blog {
 
 aside {
   display: table-cell;
-  background:       #efe5d0 url(images/background.gif) bottom right;
+  background:       #DBD8DA;
   font-size:        105%;
-  padding:          15px;
+  padding:          10px;
   vertical-align: top;
 }
 
 footer {
   background-color: #464646;
-  color:            #efe5d0;
-  text-align:       center;
-  padding:          15px;
+  color:            #DBD8DA;
+  padding:          10px;
   margin: 0px 10px 10px 10px;
   font-size:        90%;
+  height:  200px;
 }
 
+#tableContainer {
+	display: table;
+	border-spacing: 10px;
+}
+
+#tableRow {
+	display: table-row;
+}
+
+section#trademark {
+  display: table-cell;
+  padding: 0px 25px 15px 5px;
+  float: left;
+}
+section#footerLinks ul{
+  list-style-type: none;  
+  padding-bottom:5px;
+}
+section#footerLinks ul li{  
+   float: center;
+}
+section#footerLinks ul li a{ 
+    padding: 16px;
+    text-decoration: none;
+}
+
+section#subscribe {
+   display: inline;
+   float: right;
+   padding: 5px;
+}
 h1 {
   font-size:        120%;
   color:            #1F7F95;
+  text-align:       center;
+ 
 }
 
 h2 { font-size: 110%; }
 
 header.slogan { color: #1F7F95; }
-
-.beanheading {
-  text-align:       center;
-  line-height:      1.8em;
-}
 
 a:link {
   color:            #1F7F95;
