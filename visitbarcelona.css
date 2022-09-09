@@ -1,16 +1,20 @@
 body { 
   background-color: white;
   font-family:      Roboto, sans-serif;
-  font-size:        normal;
   margin:           0px;
 }
 
 header {
   background-color: #DBD8DA;
   color:            #1F7F95;
-  margin:           5px;
-  height:           40px;
-  padding:          5px 5px 10px 5px;
+  margin:           0px;
+  height:           30px;
+  padding:          5px 5px 5px 15px;
+}
+div.headerSlogan {
+  display: table-cell;
+  vertical-align: middle;
+  padding:          5px 5px 5px 15px;
 }
   
 .fa {
@@ -21,18 +25,18 @@ header {
   text-decoration: none;
   float: right;
   color: white;
-  margin:    5px;
+  margin:    2px;
 }
 
 .fa:hover {
   opacity: 0.7;
 }
 .fa-facebook {
-  background: #3B5998;
+  background: #1F7F95;
   color: white;
 }
 .fa-instagram {
-  background: #125688;
+  background: #1F7F95;
   color: white;
 }
 
@@ -102,7 +106,7 @@ h1 {
 
 h2 { font-size: 110%; }
 
-.slogan { color: #954b4b; }
+header.slogan { color: #1F7F95; }
 
 .beanheading {
   text-align:       center;
@@ -114,7 +118,7 @@ a:link {
   text-decoration:  none;
 }
 a:visited {
-  color:            #B27DAE;
+  color:            #6BC0D4;
   text-decoration:  none;
 }
 
@@ -125,7 +129,7 @@ nav ul li a:link, nav ul li a:visited {
 }
 
 li.selected {
-	background-color: #c8b99c;
+	background-color: #6BC0D4;
 }
 
 article span {
