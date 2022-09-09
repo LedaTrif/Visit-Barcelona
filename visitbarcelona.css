@@ -1,7 +1,21 @@
 body { 
   background-color: white;
   font-family:      Roboto, sans-serif;
-  margin:           0px;
+  margin:           0px 300px 0px 300px;
+  max-width: 100%;
+  max-height: 100%;
+  overflow: auto;
+}
+
+.container{
+    position:fixed; 
+    top:0;
+    left:0;
+    right:0; 
+    bottom:0; 
+    width:auto; 
+    height:900px; 
+    margin:auto;
 }
 
 header {
@@ -9,7 +23,7 @@ header {
   color:            #1F7F95;
   margin:           0px;
   height:           30px;
-  padding:          5px 5px 5px 15px;
+  padding:           5px 25px;
 }
 div.headerSlogan {
   display: table-cell;
@@ -42,7 +56,7 @@ div.headerSlogan {
 
 
 nav {
-    background-color: #efe5d0;
+    background-color: #F4D843;
 	margin: 10px 10px 0px 10px;
 }
 nav ul {
@@ -101,7 +115,7 @@ footer {
 
 h1 {
   font-size:        120%;
-  color:            #954b4b;
+  color:            #1F7F95;
 }
 
 h2 { font-size: 110%; }
@@ -118,18 +132,18 @@ a:link {
   text-decoration:  none;
 }
 a:visited {
-  color:            #6BC0D4;
+  color:            #999999;
   text-decoration:  none;
 }
 
 nav ul li a:link, nav ul li a:visited {
-	color: #954b4b;
+	color: #1F7F95;
 	border-bottom: none;
 	font-weight: bold;
 }
 
 li.selected {
-	background-color: #6BC0D4;
+	background-color: #ECECEC;
 }
 
 article span {
