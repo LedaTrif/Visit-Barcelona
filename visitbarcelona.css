@@ -7,8 +7,7 @@ body {
   overflow: auto;
 }
 
-.container{
-    position:fixed; 
+.container{ 
     top:0;
     left:0;
     right:0; 
