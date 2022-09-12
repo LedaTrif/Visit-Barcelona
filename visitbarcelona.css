@@ -131,11 +131,21 @@ footer {
 h1 {
   font-size:        120%;
   color:            #1F7F95;
-  text-align:       center;
+  text-align:       left;
  
 }
 
-h2 { font-size: 110%; }
+h2 { 
+font-size: 110%;
+line-height: 1.6em; 
+font-style: italic;
+}
+
+h3 {
+font-size:        110%;
+color: #1F7F95;
+text-align:       left;
+}
 
 header.slogan { color: #1F7F95; }
 
