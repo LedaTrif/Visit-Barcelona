@@ -85,7 +85,7 @@ section#main, section#blog {
   display: table-cell;
   background:       white;
   font-size:        105%;
-  padding:          15px 15px 15px 15px;
+  padding:          5px 15px 15px 25px;
   vertical-align: top;
 }
 
@@ -175,8 +175,16 @@ section#image {
 
 img#team {
         float:         left;
-        padding:      5px 10px 15px 15px;
+        position:       relative;
+        padding:      15px 10px 15px 15px;
         vertical-align: top;
+}
+
+.responsive {
+  padding: 15px;
+  width: 100%;
+  min-width: 200px;
+  height: auto;
 }
 
 .button {
