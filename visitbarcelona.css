@@ -85,7 +85,7 @@ section#main, section#blog {
   display: table-cell;
   background:       white;
   font-size:        105%;
-  padding:          15px;
+  padding:          15px 15px 15px 15px;
   vertical-align: top;
 }
 
@@ -95,6 +95,7 @@ aside {
   font-size:        105%;
   padding:          10px;
   vertical-align: top;
+ float: right;
 }
 
 footer {
@@ -144,8 +145,6 @@ color: #1F7F95;
 text-align:       left;
 }
 
-header.slogan { color: #1F7F95; }
-
 a:link {
   color:            #1F7F95;
   text-decoration:  none;
@@ -167,4 +166,14 @@ li.selected {
 
 article span {
 	font-style: italic;
+}
+
+section#image {
+        display: table-cell;
+        vertical-align: top;
+}
+img#team {
+        float:         left;
+        padding:      5px 15px 15px 15px;
+        vertical-align: top;
 }
