@@ -160,7 +160,7 @@ nav ul li a:link, nav ul li a:visited {
 	font-weight: bold;
 }
 
-li.selected {
+nav ul li.selected {
 	background-color: #ECECEC;
 }
 
@@ -172,8 +172,35 @@ section#image {
         display: table-cell;
         vertical-align: top;
 }
+
 img#team {
         float:         left;
-        padding:      5px 15px 15px 15px;
+        padding:      5px 10px 15px 15px;
         vertical-align: top;
+}
+
+.button {
+  display: inline-block;
+  padding: 15px 15px 25px 15px;
+  margin: 10px 10px 10px 10px;
+  width: 100px;
+  height:  15px;
+  font-size: 14px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #ffffff;
+  background-color: #1F7F95;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999999;
+}
+
+.button:hover {background-color: #F4D843}
+
+.button:active {
+  background-color: #F4D843;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
 }
