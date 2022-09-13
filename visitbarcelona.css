@@ -7,6 +7,7 @@ body {
   max-width: 100%;
   max-height: 100%;
   overflow: auto;
+color: black;
 }
 
 .container{
@@ -89,6 +90,9 @@ section#main, section#blog {
   vertical-align: top;
 }
 
+
+
+
 aside {
   display: table-cell;
   background:       #DBD8DA;
@@ -107,6 +111,11 @@ footer {
 }
 
 #tableContainer {
+	display: table;
+	border-spacing: 10px;
+}
+
+#tableTickets {
 	display: table;
 	border-spacing: 10px;
 }
@@ -136,7 +145,7 @@ h1 {
 h2 { 
 font-size: 110%;
 line-height: 1.6em; 
-font-style: italic;
+font-style: bold;
 }
 
 h3 {
