@@ -204,4 +204,7 @@ img#team {
   transform: translateY(4px);
 }
 
+time {
+  font-style: italic;
+}
 
