@@ -25,19 +25,25 @@ body {
 {  
  	html, body { margin: 72px; background-color: rgb(252, 252, 252); } 
 	h1 { font-size: 60px; color: #1F7F95; } 
-	p { font-size: 30px; color: rgb(9, 9, 9); } 
+	p { font-size: 30px; color: rgb(9, 9, 9); }
+  .fa { margin: auto;} 
+  aside { display: none;}
 } 
 @media (max-width: 667px) 
 { 
 	html, body { margin: 36px; background-color: rgb(252, 252, 252); } 
 	h1 { font-size: 36px; color:#1F7F95; } 
 	p { font-size: 24px; color: rgb(7, 7, 7); } 
+  .fa { margin: auto;} 
+  aside { display: none;}
 } 
 @media (max-width: 375px) 
 { 
 	html, body { margin: 12px; background-color: rgb(252, 252, 252); } 
 	h1 { font-size: 24px; color:#1F7F95; } 
 	p { font-size: 16px; color: #000; } 
+  .fa { margin: auto;} 
+  aside { display: none;}
 } 
 
 header {
@@ -93,6 +99,7 @@ div#tableContainer {
 
 div#tableRow {
 	display: table-row;
+  width:100%;
 }
 
 section#main, section#blog {
@@ -101,6 +108,7 @@ section#main, section#blog {
   background:       white;
   font-size:        105%;
   padding:          5px 15px 15px 25px; 
+  width: 80%;
 }
 
 
@@ -109,7 +117,7 @@ aside {
   background:       #DBD8DA;
   font-size:        105%;
   padding:          10px;
-  float: right;
+  float: left;
   vertical-align: top;
 }
 
