@@ -51,7 +51,7 @@ header {
   color:            #1F7F95;
   margin:           0px;
   height:           50px;
-  padding:          5px 25px;
+  padding:          5px 15px;
 }
   
 .fa {
@@ -80,7 +80,7 @@ header {
 
 nav {
     background-color: #F4D843;
-	margin: 10px 10px 0px 10px;
+	margin: 0px 1px 0px 0px;
 }
 nav ul {
 	margin: 0px;
@@ -107,7 +107,7 @@ section#main, section#blog {
   vertical-align: top;
   background:       white;
   font-size:        105%;
-  padding:          5px 15px 15px 25px; 
+  padding:          1px 1px 1px 1px; 
   width: 80%;
 }
 
@@ -119,6 +119,7 @@ aside {
   padding:          10px;
   float: left;
   vertical-align: top;
+  margin: 10px 1px 0px 17px;
 }
 
 footer {
@@ -179,18 +180,6 @@ nav ul li.selected {
 
 article span {
 	font-style: italic;
-}
-
-section#image {
-        display: table-cell;
-        vertical-align: top;
-}
-
-img#team {
-        float:         left;
-        position:       relative;
-        padding:      15px 10px 15px 15px;
-        vertical-align: top;
 }
 
 .responsive {
