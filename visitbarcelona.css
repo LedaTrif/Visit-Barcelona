@@ -21,22 +21,22 @@ body {
     margin: 0px 30px 0px 30px;
 }
 
-@media (min-width: 668px) 
+@media (max-width: 668px) 
 {  
- 	html, body { margin: 72px; background-color: #000; } 
-	h1 { font-size: 60px; color: rgb(18, 18, 18); } 
+ 	html, body { margin: 72px; background-color: rgb(252, 252, 252); } 
+	h1 { font-size: 60px; color: #1F7F95; } 
 	p { font-size: 30px; color: rgb(9, 9, 9); } 
 } 
 @media (max-width: 667px) 
 { 
-	html, body { margin: 36px; background-color: rgb(9, 9, 9); } 
-	h1 { font-size: 36px; color: #000; } 
+	html, body { margin: 36px; background-color: rgb(252, 252, 252); } 
+	h1 { font-size: 36px; color:#1F7F95; } 
 	p { font-size: 24px; color: rgb(7, 7, 7); } 
 } 
 @media (max-width: 375px) 
 { 
-	html, body { margin: 12px; background-color: rgb(16, 16, 16); } 
-	h1 { font-size: 24px; color: rgb(15, 14, 14); } 
+	html, body { margin: 12px; background-color: rgb(252, 252, 252); } 
+	h1 { font-size: 24px; color:#1F7F95; } 
 	p { font-size: 16px; color: #000; } 
 } 
 
