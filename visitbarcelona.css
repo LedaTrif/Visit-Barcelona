@@ -20,11 +20,11 @@ body {
     height:auto; 
     margin: 0px 10px 10px 10px;
 }
-@media only screen and (max-width:640px) {
-  .sqs-block-html {
-    margin: 10px;
+@media only screen and (max-width: 620px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width: 100%;
   }
-}
 
 header {
   background-color: #DBD8DA;
