@@ -16,27 +16,27 @@ body {
     right:0; 
     bottom:0; 
     min-width:auto;
-    width: auto;
+    max-width: 100%;
     height:auto; 
-    margin: auto;
+    margin: 0px 30px 0px 30px;
 }
 
 @media (min-width: 668px) 
 {  
  	html, body { margin: 72px; background-color: #000; } 
-	h1 { font-size: 60px; color: #FFF; } 
-	p { font-size: 30px; color: #F00; } 
+	h1 { font-size: 60px; color: rgb(18, 18, 18); } 
+	p { font-size: 30px; color: rgb(9, 9, 9); } 
 } 
 @media (max-width: 667px) 
 { 
-	html, body { margin: 36px; background-color: #F00; } 
+	html, body { margin: 36px; background-color: rgb(9, 9, 9); } 
 	h1 { font-size: 36px; color: #000; } 
-	p { font-size: 24px; color: #FFF; } 
+	p { font-size: 24px; color: rgb(7, 7, 7); } 
 } 
 @media (max-width: 375px) 
 { 
-	html, body { margin: 12px; background-color: #FFF; } 
-	h1 { font-size: 24px; color: #F00; } 
+	html, body { margin: 12px; background-color: rgb(16, 16, 16); } 
+	h1 { font-size: 24px; color: rgb(15, 14, 14); } 
 	p { font-size: 16px; color: #000; } 
 } 
 
@@ -56,7 +56,7 @@ header {
   text-decoration: none;
   float: right;
   color: white;
-  margin:    2px;
+  margin:    auto;
 }
 
 .fa:hover {
@@ -187,8 +187,8 @@ img#team {
 
 .responsive {
   padding: 15px;
-  width: 100%;
-  min-width: 200px;
+  max-width: 100%;
+  min-width: auto;
   height: auto;
 }
 
