@@ -3,7 +3,7 @@
 body { 
   background-color: white;
   font-family:      Roboto, sans-serif;
-  margin:           0px 300px 0px 300px;
+  margin:           auto;
   max-width: 100%;
   max-height: 100%;
   overflow: auto;
@@ -15,16 +15,30 @@ body {
     left: 0;
     right:0; 
     bottom:0; 
-    min-width:557px;
+    min-width:auto;
     width: auto;
     height:auto; 
-    margin: 0px 10px 10px 10px;
+    margin: auto;
 }
-@media only screen and (max-width: 620px) {
-  /* For mobile phones: */
-  .menu, .main, .right {
-    width: 100%;
-  }
+
+@media (min-width: 668px) 
+{  
+ 	html, body { margin: 72px; background-color: #000; } 
+	h1 { font-size: 60px; color: #FFF; } 
+	p { font-size: 30px; color: #F00; } 
+} 
+@media (max-width: 667px) 
+{ 
+	html, body { margin: 36px; background-color: #F00; } 
+	h1 { font-size: 36px; color: #000; } 
+	p { font-size: 24px; color: #FFF; } 
+} 
+@media (max-width: 375px) 
+{ 
+	html, body { margin: 12px; background-color: #FFF; } 
+	h1 { font-size: 24px; color: #F00; } 
+	p { font-size: 16px; color: #000; } 
+} 
 
 header {
   background-color: #DBD8DA;
