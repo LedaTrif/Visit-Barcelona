@@ -1,6 +1,6 @@
 # Visit-Barcelona
 
-This is my first website project using HTML and CSS 
+This is my first website project using HTML and CSS (created September 2022)
 
 Website about Tickets and Places in Barcelona
 
